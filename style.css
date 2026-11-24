@@ -7,13 +7,11 @@ body,html{
 body{
     background-image: url("img/hero.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    font-family: Arial, sans-serif;
-}
+    background-size: cover;}
 grid-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 20px;
-    padding: 20px;
+    width: 90%;
+    height: 90%;
 }
