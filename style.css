@@ -7,21 +7,26 @@ body,html{
 body{
     background-image: url("hero.jpg");
     background-repeat: no-repeat;
-    background-size: cover;}
+    background-size: cover;
+}
+
 .grid-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
     width: 90%;
     height: 90%;
-    grid-gap: 2px;
+    grid-gap: 2%;
+    justify-content: center;
 }
+
 .middle {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 div img{
     width: 100%;
     display: block;
